@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ducb/Documents/C++/forward-kinematics/src/fk_poe.cpp
+iostream
+-
+string
+-
+omp.h
+-
+chrono
+-
+thread
+-
+cmath
+-
+benchmark/benchmark.h
+-
+cstring
+-
+linalg/linalg.h
+/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.h
+
+/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.h
+string
+-
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.cpp
+linalg.h
+/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.h
+string
+-
+stdarg.h
+-
+

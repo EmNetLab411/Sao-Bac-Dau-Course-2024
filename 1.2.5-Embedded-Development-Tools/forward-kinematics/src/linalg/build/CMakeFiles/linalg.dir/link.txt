@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblinalg.a  CMakeFiles/linalg.dir/linalg.cpp.o
+/usr/bin/ranlib liblinalg.a
