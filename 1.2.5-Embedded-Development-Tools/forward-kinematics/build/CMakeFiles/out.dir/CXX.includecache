@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.h
+/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/linalg.h
 string
 -
 stdarg.h
 -
 
-/home/ducb/Documents/C++/forward-kinematics/src/main.cpp
+/home/ducb/Local-Git-Repos/fk_PoE.c/src/main.cpp
 string
 -
 omp.h
@@ -22,5 +22,5 @@ cmath
 benchmark/benchmark.h
 -
 linalg/linalg.h
-/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.h
+/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/linalg.h
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ducb/Documents/C++/forward-kinematics/src/linalg
+CMAKE_SOURCE_DIR = /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ducb/Documents/C++/forward-kinematics/src/linalg/build
+CMAKE_BINARY_DIR = /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/linalg.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/linalg.dir/flags.make
 
 CMakeFiles/linalg.dir/linalg.cpp.o: CMakeFiles/linalg.dir/flags.make
 CMakeFiles/linalg.dir/linalg.cpp.o: ../linalg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linalg.dir/linalg.cpp.o"
-	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linalg.dir/linalg.cpp.o -c /home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linalg.dir/linalg.cpp.o"
+	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linalg.dir/linalg.cpp.o -c /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/linalg.cpp
 
 CMakeFiles/linalg.dir/linalg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linalg.dir/linalg.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.cpp > CMakeFiles/linalg.dir/linalg.cpp.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/linalg.cpp > CMakeFiles/linalg.dir/linalg.cpp.i
 
 CMakeFiles/linalg.dir/linalg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linalg.dir/linalg.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.cpp -o CMakeFiles/linalg.dir/linalg.cpp.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/linalg.cpp -o CMakeFiles/linalg.dir/linalg.cpp.s
 
 # Object files for target linalg
 linalg_OBJECTS = \
@@ -80,7 +80,7 @@ linalg_EXTERNAL_OBJECTS =
 liblinalg.a: CMakeFiles/linalg.dir/linalg.cpp.o
 liblinalg.a: CMakeFiles/linalg.dir/build.make
 liblinalg.a: CMakeFiles/linalg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblinalg.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblinalg.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/linalg.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/linalg.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/linalg.dir/clean:
 .PHONY : CMakeFiles/linalg.dir/clean
 
 CMakeFiles/linalg.dir/depend:
-	cd /home/ducb/Documents/C++/forward-kinematics/src/linalg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ducb/Documents/C++/forward-kinematics/src/linalg /home/ducb/Documents/C++/forward-kinematics/src/linalg /home/ducb/Documents/C++/forward-kinematics/src/linalg/build /home/ducb/Documents/C++/forward-kinematics/src/linalg/build /home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles/linalg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles/linalg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/linalg.dir/depend
 
