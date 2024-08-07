@@ -36,14 +36,14 @@ int main() {
 	float thetas[arm.N_JOINTS] = {0, 0, M_PI/2, 0};
 	// Random points on screw axes
 	float points[arm.N_JOINTS * VECTOR_SIZE] = {0, 0, 0,
-									  			0, 0, arm.L1,
-									  			0, 0, arm.L1 + arm.L2,
-									  			0, 0, arm.L1 + arm.L2 + arm.L3};
+						    0, 0, arm.L1,
+						    0, 0, arm.L1 + arm.L2,
+						    0, 0, arm.L1 + arm.L2 + arm.L3};
 	// angular velocities
 	float omegas[arm.N_JOINTS * VECTOR_SIZE] = {0, 0, 1,
-									  			1, 0, 0,
-												1, 0, 0,
-												1, 0, 0};
+						    1, 0, 0,
+						    1, 0, 0,
+						    1, 0, 0};
 
 	PoE(thetas, points, omegas, T_eb, arm.N_JOINTS);
 	linalg::matMul(T_eb, M, result);
