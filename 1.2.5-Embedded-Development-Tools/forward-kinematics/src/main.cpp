@@ -27,9 +27,9 @@ int main() {
 	linalg::mallocMat(result, 4, 4);
 	// Matrices initialization
 	float M_vals[] = {0, 0, 1, 0,
-					  1, 0, 0, 0,
-					  0, 1, 0, arm.L1 + arm.L2 + arm.L3,
-					  0, 0, 0, 1};
+			  1, 0, 0, 0,
+			  0, 1, 0, arm.L1 + arm.L2 + arm.L3,
+			  0, 0, 0, 1};
 	linalg::populateMatWithValues(M, M_vals, sizeof(M_vals)/sizeof(float));
 	// PoE parameters
 	// Joint angles
