@@ -1,1 +1,1 @@
-/usr/lib/ccache/c++  -Wall -fopenmp -g   CMakeFiles/out.dir/main.cpp.o  -o out   -L/home/ducb/Documents/C++/forward-kinematics/src/linalg/build  -Wl,-rpath,/home/ducb/Documents/C++/forward-kinematics/src/linalg/build -lbenchmark -llinalg 
+/usr/lib/ccache/c++  -Wall -fopenmp   CMakeFiles/out.dir/main.cpp.o  -o out   -L/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build  -Wl,-rpath,/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build -lbenchmark -llinalg 

@@ -123,6 +123,8 @@ void linalg::matMul(Matrix &matA, Matrix &matB, Matrix &matC) {
 			exit(EXIT_FAILURE);
 		}
 
+		linalg::createZeroMat(matC);
+
 		for (int i = 0; i < matA.n_rows; i++) {
 			for (int j = 0; j < matB.n_cols; j++) {
 				for (int k = 0; k < matA.n_cols; k++) {

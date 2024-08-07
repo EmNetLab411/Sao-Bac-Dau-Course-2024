@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ducb/Documents/C++/forward-kinematics/src/linalg/linalg.cpp" "/home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles/linalg.dir/linalg.cpp.o"
+  "/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/linalg.cpp" "/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles/linalg.dir/linalg.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

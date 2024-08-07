@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ducb/Documents/C++/forward-kinematics/src/linalg
+CMAKE_SOURCE_DIR = /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ducb/Documents/C++/forward-kinematics/src/linalg/build
+CMAKE_BINARY_DIR = /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/linalg.dir/clean
 CMakeFiles/linalg.dir/all:
 	$(MAKE) -f CMakeFiles/linalg.dir/build.make CMakeFiles/linalg.dir/depend
 	$(MAKE) -f CMakeFiles/linalg.dir/build.make CMakeFiles/linalg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles --progress-num=1,2 "Built target linalg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles --progress-num=1,2 "Built target linalg"
 .PHONY : CMakeFiles/linalg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/linalg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linalg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ducb/Documents/C++/forward-kinematics/src/linalg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ducb/Local-Git-Repos/fk_PoE.c/src/linalg/build/CMakeFiles 0
 .PHONY : CMakeFiles/linalg.dir/rule
 
 # Convenience name for target.
